@@ -21,9 +21,9 @@ if len(str1) != len(str2)
   map = {}
 for i in range (len(str1)):
   if str1[i] not in map:
-    map[str1[i]]
+    map[str1[i]] =0 
   if str[2] not in map:
-    map[str2[i]]
+    map[str2[i]] = 0
   elif str1[i] in map:
     map[str1[i]] +=1
     elif str2[i] in map
